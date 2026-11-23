@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="b2.css">
+</head>
+</head>
+<body>
+
+    <header>
+        <h1>Properti CSS Display</h1>
+        <p>Belajar Mengatur Tampilan Elemen Website</p>
+    </header>
+
+    <main class="container">
+
+        <section class="card">
+            <h2>1. Display Block</h2>
+            <div class="block">Kotak 1</div>
+            <div class="block">Kotak 2</div>
+            <p class="keterangan">
+                Block menempati lebar yang tersedia secara default
+                dan dimulai pada baris baru
+ <mark>• Lebar penuh (full width):</mark>elemen otomatis melebar hingga memenuhi 100% lebar kontainer atau layar.
+<mark>• Baris baru:</mark> Elemen berikutnya setelah elemen block akan turun ke baris di bawahnya (tidak bisa sejajar secara horizontal dengan elemen lain di sebelahnya dalam kondisi normal).
+<mark>• Mendukung dimensi: </mark>Anda dapat mengatur properti width (lebar) dan height (tinggi) secara bebas.
+<mark>• Mendukung margin dan padding:</mark> Mengatur jarak luar (margin) dan jarak dalam (padding) bekerja penuh di semua sisi (atas, bawah, kiri, kanan).
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>2. Display Inline</h2>
+            <span class="inline">Kotak 1</span>
+            <span class="inline">Kotak 2</span>
+            <p class="keterangan">
+                Inline membuat elemen berada dalam satu baris
+                selama ruang masih tersedia.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>3. Display Inline-Block</h2>
+            <div class="inline-block">Kotak 1</div>
+            <div class="inline-block">Kotak 2</div>
+            <p class="keterangan">
+                Inline-block membuat elemen sejajar dan bisa
+                diatur lebar serta tingginya.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>4. Display Flex</h2>
+            <div class="flex-container">
+                <div>Kotak 1</div>
+                <div>Kotak 2</div>
+                <div>Kotak 3</div>
+            </div>
+            <p class="keterangan">
+                Flex memudahkan pengaturan elemen dalam baris
+                atau kolom.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>5. Display Grid</h2>
+            <div class="grid-container">
+                <div>Kotak 1</div>
+                <div>Kotak 2</div>
+                <div>Kotak 3</div>
+                <div>Kotak 4</div>
+            </div>
+            <p class="keterangan">
+                Grid mengatur elemen menggunakan baris dan kolom.
+            </p>
+        </section>
+
+        <section class="card">
+            <h2>6. Display None</h2>
+            <div class="none">Teks ini disembunyikan.</div>
+            <p class="keterangan">
+                Elemen dengan display: none tidak ditampilkan
+                dan tidak mengambil ruang dalam layout.
+            </p>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Belajar HTML dan CSS & copy; 2026</p>
+    </footer>
+
+</body>
+</html>
